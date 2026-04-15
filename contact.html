@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Arm Pillow</title>
+  <meta name="description" content="Reach out to the Arm Pillow team — retailers, collaborators, and customers welcome." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark"></span>
+      Arm Pillow
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="product.html" class="nav-cta">Get Yours</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ============ PAGE HERO ============ -->
+  <header class="page-hero cloud-bg">
+    <div class="floating-clouds">
+      <div class="cloud c1"></div>
+      <div class="cloud c2"></div>
+      <div class="cloud c3"></div>
+    </div>
+    <div class="container">
+      <span class="eyebrow">Get in Touch</span>
+      <h1>Let's talk comfort.</h1>
+      <p>Retailers, collaborators, and customers — we'd love to hear from you. Drop us a message and we'll get back soon.</p>
+    </div>
+  </header>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact-section cloud-bg">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <span class="eyebrow">Reach out</span>
+          <h2>We read every message.</h2>
+          <p>
+            Interested in carrying Arm Pillow in your store? Want to collaborate,
+            partner, or just say hi? This is the place.
+          </p>
+
+          <ul class="info-list">
+            <li>
+              <div class="icon">✉</div>
+              <div><strong>Email</strong>hello@armpillow.co</div>
+            </li>
+            <li>
+              <div class="icon">☎</div>
+              <div><strong>Phone</strong>+1 (555) 010-1515</div>
+            </li>
+            <li>
+              <div class="icon">◎</div>
+              <div><strong>Instagram</strong>@armpillow</div>
+            </li>
+            <li>
+              <div class="icon">♪</div>
+              <div><strong>TikTok</strong>@armpillow</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form reveal">
+          <form novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us a bit more..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Send Message →</button>
+            <p class="form-status"></p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="final-cta cloud-bg">
+    <div class="container reveal">
+      <span class="eyebrow">Follow along</span>
+      <h2>Be part of the journey.</h2>
+      <p>We're sharing every step of building Arm Pillow — from prototypes to the first customers.</p>
+      <div class="btns">
+        <a href="about.html" class="btn btn-primary">Our Story</a>
+        <a href="product.html" class="btn btn-secondary">See the Product</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-mark"></span>
+            Arm Pillow
+          </a>
+          <p>Sleep better no matter where you are. A softer way to rest — built for travelers, students, and everyone in between.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="about.html#journey">Our Journey</a></li>
+            <li><a href="product.html#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © <span id="year">2026</span> Arm Pillow. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
